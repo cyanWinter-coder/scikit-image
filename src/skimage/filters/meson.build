@@ -6,6 +6,7 @@ python_sources = [
   '_gaussian.py',
   '_median.py',
   '_rank_order.py',
+  '_separable.py',
   '_sparse.py',
   '_unsharp_mask.py',
   '_window.py',

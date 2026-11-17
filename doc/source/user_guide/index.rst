@@ -17,6 +17,7 @@ and more advanced topics.
    video
    visualization
    transforming_image_data
+   separable_filtering
    geometrical_transform
    tutorials
    getting_help

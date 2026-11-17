@@ -6,6 +6,10 @@ We're happy to announce the release of scikit-image 2.7.0rc0!
 New Features
 ------------
 
+- Add ``skimage.filters.separable_filter`` and
+  ``skimage.filters.separable_convolve`` for memory-conscious separable
+  filtering of 3-D images with anisotropic spacing, configurable boundary
+  modes, dtype preservation, and chunked processing.
 - Add a warning when importing experimental skimage2 (`#7873 <https://github.com/scikit-image/scikit-image/pull/7873>`_).
 - In ``skimage.feature``, add a new parameter ``prescale`` to the functions  ``blob_doh``, blob_dog``, and ``blob_log``. This parameter controls the internal rescaling behavior which makes it easier to set the ``threshold`` parameter  correctly (`#7858 <https://github.com/scikit-image/scikit-image/pull/7858>`_).
 

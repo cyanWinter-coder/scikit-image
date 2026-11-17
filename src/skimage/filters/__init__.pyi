@@ -33,6 +33,8 @@ __all__ = [
     "scharr",
     "scharr_h",
     "scharr_v",
+    "separable_convolve",
+    "separable_filter",
     "sobel",
     "sobel_h",
     "sobel_v",
@@ -59,6 +61,7 @@ from ._gabor import gabor, gabor_kernel
 from ._gaussian import difference_of_gaussians, gaussian
 from ._median import median
 from ._rank_order import rank_order
+from ._separable import separable_convolve, separable_filter
 from ._sparse import correlate_sparse
 from ._unsharp_mask import unsharp_mask
 from ._window import window

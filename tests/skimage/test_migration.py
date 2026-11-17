@@ -460,6 +460,7 @@ SKIMAGE_FILE_TREE = {
     'filters/_median',
     'filters/_multiotsu',
     'filters/_rank_order',
+    'filters/_separable',
     'filters/_sparse',
     'filters/_unsharp_mask',
     'filters/_window',
@@ -1041,6 +1042,10 @@ SKIMAGE_API = {
     "skimage.filters:scharr(image, mask=None, *, axis=None, mode='reflect', cval=0.0)",
     'skimage.filters:scharr_h(image, mask=None)',
     'skimage.filters:scharr_v(image, mask=None)',
+    'skimage.filters:separable_convolve(image, kernels, *more_kernels, '
+    "mode='nearest', cval=0.0, chunk_size=None, out=None)",
+    'skimage.filters:separable_filter(image, sigma=1.0, *, spacing=None, '
+    "mode='nearest', cval=0.0, truncate=4.0, chunk_size=None, out=None)",
     "skimage.filters:sobel(image, mask=None, *, axis=None, mode='reflect', cval=0.0)",
     'skimage.filters:sobel_h(image, mask=None)',
     'skimage.filters:sobel_v(image, mask=None)',
